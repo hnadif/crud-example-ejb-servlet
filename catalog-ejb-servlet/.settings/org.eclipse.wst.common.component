@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="catalog-ejb-servlet">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="catalog-ejb.jar" deploy-path="/" handle="module:/resource/catalog-ejb/catalog-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="roadmap-fullstack-javaee2.war" deploy-path="/" handle="module:/resource/roadmap-fullstack-javaee2/roadmap-fullstack-javaee2">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
